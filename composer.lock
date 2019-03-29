@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a6b1818c217f9449e4d7a07994d116c",
+    "content-hash": "e1f919f7b7321414cd26cdfa417fb676",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2643,6 +2643,140 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2019-03-20T06:01:19+00:00"
+        },
+        {
+            "name": "drupal/photos",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/photos",
+                "reference": "8.x-4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/photos-8.x-4.1.zip",
+                "reference": "8.x-4.1",
+                "shasum": "9b9f15e8e1a1bf6f1280361d21170ca84ff19ccb"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.1",
+                    "datestamp": "1539642181",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nathaniel",
+                    "homepage": "https://www.drupal.org/user/443482"
+                },
+                {
+                    "name": "eastcn",
+                    "homepage": "https://www.drupal.org/user/134014"
+                }
+            ],
+            "description": "Picture management module. Photo albums.",
+            "homepage": "https://www.drupal.org/project/photos",
+            "support": {
+                "source": "http://cgit.drupalcode.org/photos"
+            }
+        },
+        {
+            "name": "drupal/plupload",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/plupload",
+                "reference": "8.x-1.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/plupload-8.x-1.0-beta2.zip",
+                "reference": "8.x-1.0-beta2",
+                "shasum": "e4b01b8e1c27b91f4ccc2a55f7f8bc70a2b77358"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta2",
+                    "datestamp": "1544386380",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David_Rothstein",
+                    "homepage": "https://www.drupal.org/user/124982"
+                },
+                {
+                    "name": "JacobSingh",
+                    "homepage": "https://www.drupal.org/user/68912"
+                },
+                {
+                    "name": "budalokko",
+                    "homepage": "https://www.drupal.org/user/788636"
+                },
+                {
+                    "name": "effulgentsia",
+                    "homepage": "https://www.drupal.org/user/78040"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                },
+                {
+                    "name": "justintime",
+                    "homepage": "https://www.drupal.org/user/99149"
+                },
+                {
+                    "name": "muri",
+                    "homepage": "https://www.drupal.org/user/1358960"
+                },
+                {
+                    "name": "paranojik",
+                    "homepage": "https://www.drupal.org/user/19501"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                },
+                {
+                    "name": "vingborg",
+                    "homepage": "https://www.drupal.org/user/259657"
+                }
+            ],
+            "description": "Provides a plupload Form API element.",
+            "homepage": "https://www.drupal.org/project/plupload",
+            "support": {
+                "source": "http://cgit.drupalcode.org/plupload"
+            }
         },
         {
             "name": "drush/drush",
@@ -8219,7 +8353,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/plupload": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
