@@ -12,9 +12,9 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://photo-camera (1).png'
   url: ''
-  use_default: true
+  use_default: false
 cdn_jsdelivr_theme: superhero
 table_responsive: '-1'
 table: ''
