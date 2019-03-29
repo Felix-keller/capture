@@ -57,3 +57,16 @@ a.navbar-brand {
     transform: scale(1.05);
 }
 
+.navbar-brand {
+    font-size: 3em;
+    margin-top: 13px;
+}
+
+.last {
+    float: rigth;
+}
+
+.navbar-text {
+    padding-left: 10px;
+}
+
