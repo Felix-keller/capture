@@ -12,7 +12,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://photo-camera (1).png'
+  path: 'public://photo-camera (3).png'
   url: ''
   use_default: false
 cdn_jsdelivr_theme: superhero

@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900|Roboto');
+
+body {
+    background-color: #333;
+    font-family: 'Montserrat';
+}
+
+#navbar {
+    background-color: #222;
+}
+
 a.navbar-brand {
     padding-right: 3px;
 }
@@ -60,6 +71,8 @@ a.navbar-brand {
 .navbar-brand {
     font-size: 3em;
     margin-top: 13px;
+    font-weight: 300;
+    color: #fff;
 }
 
 .last {
@@ -70,3 +83,14 @@ a.navbar-brand {
     padding-left: 10px;
 }
 
+.form-group {
+    margin: 9px 0;
+}
+
+.input-group {
+    width: 30%;
+}
+
+.form-search {
+    background-color: #333;
+}
