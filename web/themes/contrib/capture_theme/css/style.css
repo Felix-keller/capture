@@ -89,8 +89,36 @@ a.navbar-brand {
 
 .input-group {
     width: 30%;
+    float: right;
 }
 
+.navbar-header {
+    padding-bottom: 9px;
+}
 .form-search {
     background-color: #333;
+    color: #fff;
+}
+
+.author {
+    display: none;
+}
+
+.field--label {
+    display: none;
+}
+
+.col-sm-12 {
+    margin-bottom: 80px;
+}
+
+@media only screen 
+  and (min-device-width: 770px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .input-group {
+        float: left;
+        width: 50%
+    }
+    
 }
