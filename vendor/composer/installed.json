@@ -2444,7 +2444,7 @@
         "version_normalized": "3.17.0.0",
         "source": {
             "type": "git",
-            "url": "https://git.drupal.org/project/bootstrap",
+            "url": "https://git.drupalcode.org/project/bootstrap.git",
             "reference": "8.x-3.17"
         },
         "dist": {
@@ -3046,12 +3046,77 @@
         "description": "Drupal is an open source content management platform powering millions of websites and applications."
     },
     {
+        "name": "drupal/file_download",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/file_download.git",
+            "reference": "8.x-1.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/file_download-8.x-1.3.zip",
+            "reference": "8.x-1.3",
+            "shasum": "c07aa196140d398916b786165de8c8ea4d11ae97"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.3",
+                "datestamp": "1544680980",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Dave Reid",
+                "homepage": "https://www.drupal.org/user/53892"
+            },
+            {
+                "name": "Drupal Media Team",
+                "homepage": "https://www.drupal.org/user/3260690"
+            },
+            {
+                "name": "kent@passingphase.nz",
+                "homepage": "https://www.drupal.org/user/93571"
+            },
+            {
+                "name": "slashrsm",
+                "homepage": "https://www.drupal.org/user/744628"
+            }
+        ],
+        "description": "File Download",
+        "homepage": "http://drupal.org/project/file_download",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/file_download",
+            "issues": "http://drupal.org/project/issues/file_download"
+        }
+    },
+    {
         "name": "drupal/form_mode_manager",
         "version": "1.3.0",
         "version_normalized": "1.3.0.0",
         "source": {
             "type": "git",
-            "url": "https://git.drupal.org/project/form_mode_manager",
+            "url": "https://git.drupalcode.org/project/form_mode_manager.git",
             "reference": "8.x-1.3"
         },
         "dist": {
@@ -3104,12 +3169,66 @@
         }
     },
     {
+        "name": "drupal/likebtn",
+        "version": "2.13.0",
+        "version_normalized": "2.13.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/likebtn.git",
+            "reference": "8.x-2.13"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/likebtn-8.x-2.13.zip",
+            "reference": "8.x-2.13",
+            "shasum": "7ff13ae6c4bae39f61f82bcc1b56835f34d92cd3"
+        },
+        "require": {
+            "drupal/core": "*",
+            "drupal/votingapi": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.13",
+                "datestamp": "1511675885",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "likebtn",
+                "homepage": "https://www.drupal.org/user/2499450"
+            }
+        ],
+        "description": "Like Button",
+        "homepage": "http://drupal.org/project/likebtn",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/likebtn",
+            "issues": "http://drupal.org/project/issues/likebtn"
+        }
+    },
+    {
         "name": "drupal/photos",
         "version": "4.1.0",
         "version_normalized": "4.1.0.0",
         "source": {
             "type": "git",
-            "url": "https://git.drupal.org/project/photos",
+            "url": "https://git.drupalcode.org/project/photos.git",
             "reference": "8.x-4.1"
         },
         "dist": {
@@ -3162,7 +3281,7 @@
         "version_normalized": "1.0.0.0-beta2",
         "source": {
             "type": "git",
-            "url": "https://git.drupal.org/project/plupload",
+            "url": "https://git.drupalcode.org/project/plupload.git",
             "reference": "8.x-1.0-beta2"
         },
         "dist": {
@@ -3247,7 +3366,7 @@
         "version_normalized": "1.12.0.0",
         "source": {
             "type": "git",
-            "url": "https://git.drupal.org/project/search_api",
+            "url": "https://git.drupalcode.org/project/search_api.git",
             "reference": "8.x-1.12"
         },
         "dist": {
@@ -3320,7 +3439,7 @@
         "version_normalized": "1.0.0.0-alpha12",
         "source": {
             "type": "git",
-            "url": "https://git.drupal.org/project/search_api_page",
+            "url": "https://git.drupalcode.org/project/search_api_page.git",
             "reference": "8.x-1.0-alpha12"
         },
         "dist": {
@@ -3373,6 +3492,71 @@
         "homepage": "https://www.drupal.org/project/search_api_page",
         "support": {
             "source": "http://cgit.drupalcode.org/search_api_page"
+        }
+    },
+    {
+        "name": "drupal/votingapi",
+        "version": "3.0.0-beta1",
+        "version_normalized": "3.0.0.0-beta1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/votingapi",
+            "reference": "8.x-3.0-beta1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/votingapi-8.x-3.0-beta1.zip",
+            "reference": "8.x-3.0-beta1",
+            "shasum": "db3672346a25d6107d27a27f40abc03a38e3637f"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.0-beta1",
+                "datestamp": "1540711680",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "eaton",
+                "homepage": "https://www.drupal.org/user/16496"
+            },
+            {
+                "name": "pedrorocha",
+                "homepage": "https://www.drupal.org/user/218937"
+            },
+            {
+                "name": "pifagor",
+                "homepage": "https://www.drupal.org/user/2375692"
+            },
+            {
+                "name": "torotil",
+                "homepage": "https://www.drupal.org/user/865256"
+            }
+        ],
+        "description": "Voting API",
+        "homepage": "http://drupal.org/project/votingapi",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/votingapi",
+            "issues": "http://drupal.org/project/issues/votingapi"
         }
     },
     {
