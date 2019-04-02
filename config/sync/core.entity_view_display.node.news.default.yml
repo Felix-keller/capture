@@ -4,12 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
-    - field.field.node.news.field_beschreibung
     - field.field.node.news.field_image
+    - field.field.node.news.field_like
     - field.field.node.news.field_path
     - node.type.news
   module:
     - image
+    - likebtn
     - text
     - user
 _core:
@@ -22,19 +23,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 2
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_beschreibung:
-    weight: 4
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
     region: content
   field_image:
-    weight: 2
+    weight: 0
     label: above
     settings:
       image_style: ''
@@ -42,16 +36,23 @@ content:
     third_party_settings: {  }
     type: image
     region: content
-  field_path:
-    weight: 3
+  field_like:
+    weight: 1
     label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: likebtn_formatter
+    region: content
+  field_path:
+    weight: 4
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   links:
-    weight: 1
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }

@@ -3,9 +3,9 @@ schemas:
   capture_theme: 8000
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
+  path: 'public://photo-camera.ico'
   url: 'http://capture.local/themes/contrib/capture_theme/favicon.ico'
-  use_default: true
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true

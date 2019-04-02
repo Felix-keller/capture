@@ -6,11 +6,13 @@ dependencies:
     - core.entity_form_mode.node.bild_hochlade
     - field.field.node.news.body
     - field.field.node.news.field_image
+    - field.field.node.news.field_like
     - field.field.node.news.field_path
     - image.style.300x200
     - node.type.news
   module:
     - image
+    - likebtn
 _core:
   default_config_hash: TNyW_3nlfmwRgpnRdyKVhslACHrOFmVLVeAHriomv_M
 id: node.news.bild_hochlade
@@ -26,6 +28,12 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
+  field_like:
+    type: likebtn_widget
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   title:
     type: string_textfield
     weight: 0

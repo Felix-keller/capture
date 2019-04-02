@@ -1,12 +1,15 @@
 uuid: cdc5e381-6c68-4750-81be-5c1fdadcb4f9
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.news.body
+    - field.field.node.news.field_image
+    - field.field.node.news.field_path
     - node.type.news
   module:
+    - image
     - text
     - user
 _core:
@@ -19,14 +22,24 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 0
+    weight: 1
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
   links:
-    weight: 1
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_path: true

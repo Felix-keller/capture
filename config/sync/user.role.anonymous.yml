@@ -18,3 +18,4 @@ permissions:
   - 'search content'
   - 'use node.bild_hochlade form mode'
   - 'use node.default form mode'
+  - 'use text format filtered_html'
