@@ -23,17 +23,17 @@ default_value:
       likebtn_html_after: ''
       likebtn_alignment: left
     likebtn_settings_style_language:
-      likebtn_settings_theme: bootstrap
+      likebtn_settings_theme: disk
       likebtn_settings_lang: en
     likebtn_settings_appearance_behaviour:
       likebtn_settings_like_enabled: 1
       likebtn_settings_dislike_enabled: 0
-      likebtn_settings_show_like_label: 1
+      likebtn_settings_show_like_label: 0
       likebtn_settings_show_dislike_label: 0
       likebtn_settings_icon_like_show: 1
       likebtn_settings_icon_dislike_show: 0
       likebtn_settings_vert: 0
-      likebtn_settings_ef_voting: ''
+      likebtn_settings_ef_voting: heartbeat
       likebtn_settings_white_label: 0
       likebtn_settings_rich_snippet: 0
       likebtn_settings_event_handler: ''

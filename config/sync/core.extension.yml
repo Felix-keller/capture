@@ -31,6 +31,8 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  particlesjs: 0
+  particlesjs_example: 0
   path: 0
   photos: 0
   photos_access: 0
