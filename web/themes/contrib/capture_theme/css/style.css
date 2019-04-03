@@ -68,6 +68,11 @@ a.navbar-brand {
     transform: scale(1.05);
 }
 
+.lb-count {
+    color: #fff !important;
+    font-size: 1.5em;
+}  
+
 .navbar-brand {
     font-size: 3em;
     margin-top: 13px;
@@ -111,5 +116,7 @@ a.navbar-brand {
 .col-sm-12 {
     margin-bottom: 50px;
 }
+
+
 
 

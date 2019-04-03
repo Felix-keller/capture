@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60ed47518cd1aea1162dd2ba34cd8709",
+    "content-hash": "ad14e57fdc0dd4463ec971fcc43b1151",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2816,6 +2816,53 @@
             }
         },
         {
+            "name": "drupal/particlesjs",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/particlesjs.git",
+                "reference": "8.x-1.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/particlesjs-8.x-1.0-beta2.zip",
+                "reference": "8.x-1.0-beta2",
+                "shasum": "7b962c06301b5fbfcb6a5c0e124a482ddbeb1cb4"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta2",
+                    "datestamp": "1521678781",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "guix",
+                    "homepage": "https://www.drupal.org/user/173213"
+                }
+            ],
+            "description": "A lightweight JavaScript library for creating particles",
+            "homepage": "https://www.drupal.org/project/particlesjs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/particlesjs"
+            }
+        },
+        {
             "name": "drupal/photos",
             "version": "4.1.0",
             "source": {
@@ -3084,7 +3131,7 @@
             "version": "3.0.0-beta1",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/votingapi",
+                "url": "https://git.drupalcode.org/project/votingapi.git",
                 "reference": "8.x-3.0-beta1"
             },
             "dist": {
@@ -8718,6 +8765,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/particlesjs": 10,
         "drupal/plupload": 10,
         "drupal/search_api_page": 15
     },
